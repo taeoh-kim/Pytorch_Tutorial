@@ -12,13 +12,13 @@ Default Mode is GPU Mode. If not, remove all GPU functions (ex. .cuda() or .cpu(
 
 If your CUDA is available, code will print below result.
 
-<p align="left"><img width="100%" src="img/ss_1.1_1.png"></p>
+<p align="left"><img width="60%" src="img/ss_1.1_1.png"></p>
 
 ### 2. Basic Tensor and Variable
 
 When you define tensor and CUDA-tensor, it will give below results.
 
-<p align="left"><img width="100%" src="img/ss_1.1_2.png"></p>
+<p align="left"><img width="60%" src="img/ss_1.1_2.png"></p>
 
 In above, Variable makes your tensor as variable.
 
@@ -35,14 +35,14 @@ Data, Grad and Requires_grad
 
 Requires_grad will be True when you use Neural Network Module.
 
-<p align="left"><img width="100%" src="img/ss_1.1_3.png"></p>
+<p align="left"><img width="60%" src="img/ss_1.1_3.png"></p>
 
 ### 4. Data Access
 
 Here are some examples which you can access to Varaible and its data.
 
-<p align="left"><img width="100%" src="img/ss_1.1_4.png"></p>
+<p align="left"><img width="60%" src="img/ss_1.1_4.png"></p>
 
 And how to obtain scalar, mean and sum of Variable.
 
-<p align="left"><img width="100%" src="img/ss_1.1_5.png"></p>
+<p align="left"><img width="60%" src="img/ss_1.1_5.png"></p>
