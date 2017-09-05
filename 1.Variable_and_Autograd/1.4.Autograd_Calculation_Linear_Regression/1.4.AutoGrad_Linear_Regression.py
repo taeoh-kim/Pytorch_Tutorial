@@ -10,7 +10,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.autograd import Variable
 
-num_epoch = 200
+num_epoch = 400
 learning_rate = 0.01
 
 def to_variable(x):
@@ -104,7 +104,7 @@ for i in range(num_epoch):
 		print_current_parameter_state()
 
 	# ---------------------- Print Los
-	if i % 10 == 0:
+	if i % 20 == 0:
 		print("\nIterdation: [%d/%d], Loss: %f, '%s': %f, '%s': %f" % (i+1, num_epoch, get_data(loss), get_name(param[0]), get_param_data(param[0]), get_name(param[1]), get_param_data(param[1])))
 
 x_test = to_variable(3 * torch.ones(1, 1))

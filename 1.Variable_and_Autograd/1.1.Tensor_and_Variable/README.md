@@ -8,16 +8,41 @@
 
 Default Mode is GPU Mode. If not, remove all GPU functions (ex. .cuda() or .cpu())
 
-In this tutorial,
+### 1. GPU Check
 
-What is Tensor? Cuda Tensor? and Variable?
+If your CUDA is available, code will print below result.
 
-The most important one is "Variable".
+<p align="left"><img width="100%" src="img/ss_1.1_1.png"></p>
 
-It contains parameters such as data, grad and requires_grad.
+### 2. Basic Tensor and Variable
 
-data stores the data (scalar, matrix or tensor)
+When you define tensor and CUDA-tensor, it will give below results.
 
-grad stores the gradient of current parameter (if current parameter is trainable)
+<p align="left"><img width="100%" src="img/ss_1.1_2.png"></p>
 
-And you will learn how to extract such data and gradient of the Variable.
+In above, Variable makes your tensor as variable.
+
+So what is a Variable? It contains
+
+- Data: Your tensor or CUDA-tensor
+- Grad: Gradient of your tensor node
+
+### 3. Varaible's Components
+
+Below results show components of Variable.
+
+Data, Grad and Requires_grad
+
+Requires_grad will be True when you use Neural Network Module.
+
+<p align="left"><img width="100%" src="img/ss_1.1_3.png"></p>
+
+### 4. Data Access
+
+Here are some examples which you can access to Varaible and its data.
+
+<p align="left"><img width="100%" src="img/ss_1.1_4.png"></p>
+
+And how to obtain scalar, mean and sum of Variable.
+
+<p align="left"><img width="100%" src="img/ss_1.1_5.png"></p>
