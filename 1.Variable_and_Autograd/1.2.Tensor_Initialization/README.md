@@ -6,10 +6,14 @@
 
 ---
 
-Default Mode is GPU Mode. If not, remove all GPU functions (ex. .cuda() or .cpu())
+### 1. Various Tensor Initialization
 
-In this tutorial,
+Below examples show the Numpy-style Tensor Initializations.
 
-You will understand how to initialize Tensor with various methods.
+<p align="left"><img width="60%" src="img/ss_1.2_1.png"></p>
 
-It's so easy, just RUN.
+### 2. Numpy Usage
+
+You can make Tensor from Numpy and vice versa.
+
+<p align="left"><img width="60%" src="img/ss_1.2_2.png"></p>
