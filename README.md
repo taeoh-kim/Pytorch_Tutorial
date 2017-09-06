@@ -25,6 +25,6 @@ Under Construction
 - Data Processing with Facial Landmark Detection
 - Variational Autoencoder
 - Neural Style Transfer
-- Sementic Segmentation
+- Semantic Segmentation
 - Single Image Super-resolution
 - Object Detection
