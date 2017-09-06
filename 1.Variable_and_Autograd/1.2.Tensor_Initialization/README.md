@@ -14,6 +14,6 @@ Below examples show the Numpy-style Tensor Initializations.
 
 ### 2. Numpy Usage
 
-You can make Tensor from Numpy and vice versa.
+You can make a Tensor from Numpy and vice versa.
 
 <p align="left"><img width="60%" src="img/ss_1.2_2.png"></p>

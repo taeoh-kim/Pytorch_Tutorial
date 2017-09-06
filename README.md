@@ -1,6 +1,14 @@
 # Very Easy Pytorch Tutorial
 
-Under Construction
+Under Construction (~Part 1 Complete.)
+
+## Environments
+
+- Basic Machine Learning Backgrounds
+- Linux
+- Python 3.6
+- Pytorch 0.2.0
+- Torchvision
 
 ## Contents
 
@@ -26,5 +34,5 @@ Under Construction
 - Variational Autoencoder
 - Neural Style Transfer
 - Semantic Segmentation
-- Single Image Super-resolution
+- Single Image Super Resolution
 - Object Detection

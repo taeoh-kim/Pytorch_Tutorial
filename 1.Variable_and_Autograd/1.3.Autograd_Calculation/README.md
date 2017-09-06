@@ -8,7 +8,7 @@
 
 ### 1. Computational Graph
 
-You will build simple computational graph.
+You will build a simple computational graph.
 
 - y = 2 x (x1) + 3 x (x2) + 1
 - x2 = (x3) + 2 x (x4)

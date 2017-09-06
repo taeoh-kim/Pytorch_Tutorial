@@ -16,7 +16,7 @@ If your CUDA is available, code will print below result.
 
 ### 2. Basic Tensor and Variable
 
-When you define tensor and CUDA-tensor, it will give below results.
+When you define a tensor and a CUDA-tensor, it will give below results.
 
 <p align="left"><img width="60%" src="img/ss_1.1_2.png"></p>
 
@@ -43,6 +43,6 @@ Here are some examples which you can access to Varaible and its data.
 
 <p align="left"><img width="60%" src="img/ss_1.1_4.png"></p>
 
-And how to obtain scalar, mean and sum of Variable.
+And how to obtain scalar, mean and sum of the Variable.
 
 <p align="left"><img width="60%" src="img/ss_1.1_5.png"></p>
